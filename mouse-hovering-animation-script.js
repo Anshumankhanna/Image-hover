@@ -4,8 +4,6 @@ elems
     .forEach((val) => {
         let yAxis = val.offsetTop;
         let height = val.offsetHeight;
-        
-        console.log(yAxis, height);
 
         val.addEventListener("mouseenter", function () {
             val.childNodes[3].style.opacity = "1";
